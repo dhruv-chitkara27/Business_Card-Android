@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/uda"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/udacity_logo_full"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="690dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/uda"
+        android:paddingTop="3dp"
+        android:text="Prepare for the best tech jobs"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:id="@+id/tex1"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:id="@+id/tex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:text="Accelerate your career with online courses developed in partnership with :"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/udacity_logo_blue"
+        android:id="@+id/im1"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/im1"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/logo_git1"
+        android:id="@+id/im2"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/im2"
+        android:layout_marginLeft="175dp"
+        android:src="@drawable/logo_a1"
+        android:id="@+id/im3"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@id/im3"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/logo_g1"
+        android:id="@+id/im4"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_f1"
+        android:layout_below="@id/im4"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/im5"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_m1"
+        android:layout_below="@id/im2"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/im6"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_r1"
+        android:layout_below="@id/im3"
+        android:layout_marginLeft="175dp"
+        android:id="@+id/im7"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_t1"
+        android:layout_below="@id/im3"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/im8"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="229dp"
+        android:layout_marginStart="49dp"
+        android:text="Don't let the flow of knowledge stop!"
+        android:textColor="#00BFFF"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/im3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="199dp"
+        android:text="Learn Anytime,Anywhere"
+        android:textColor="#00BFFF"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="167dp"
+        android:text="Many Nanodegree Programs And Free Courses"
+        android:textColor="#00BFFF"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="139dp"
+        android:text="                             To Choose From :"
+        android:textColor="#00BFFF"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/im2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="79dp"
+        android:background="#00BFFF"
+        android:text="Nanodegree Programs"
+        android:textColor="#FBF8EF"
+        tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+
+    <Button
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/im4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:background="#00BFFF"
+        android:text="Free Courses"
+        android:textColor="#FBF8EF"
+        tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/im1"
+        android:layout_marginBottom="29dp"
+        android:text="Address: Udacity Inc. 2465"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:text="Website - www.udacity.com"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="89dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:text="Phone no.-8683866705"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
